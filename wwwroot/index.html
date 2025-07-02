@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Level</title>
+    <script src="index.js"></script>
+    <script src="stylescript.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <div class="mario-game" id="container">
+            <div class="scorebar">
+                <p>
+                    <span class="topline-mario">MARIO</span>
+                    <span class="topline-world">WORLD</span>
+                    <span class="topline-time">TIME</span>
+                    <span id="bottomline-score">000000</span>
+                    <span id="bottomline-coin"><img src="https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/Coin.gif" height="40px"> x <span>00</span></span>
+                    <span class="bottomline-world">1 - 1</span>
+                    <span class="bottomline-time" id="timeLeft">000</span>
+                    <div id="message"></div>
+                    <button id="start-btn">Start Level</button>
+                </p>
+            </div>
+            <div id="background"></div>
+            <div id="foreground" class="layer foreground"></div>
+            <div id="items" class="layer"><div id="block"> <img src="https://itc.yananas.com/git/mario/assets/coin.gif" alt="" id="coin" /></div></div>
+            <div id="plants" class="layer plants"></div>
+            <div id="moutains" class="layer moutains"></div>
+            <div id="clouds" class="layer clouds"></div>
+            <img id="flag" src="https://cdn.pixabay.com/photo/2018/04/29/14/04/mario-3360044_1280.png" alt="Flag">
+            <img id="mario" src="https://pbs.twimg.com/media/F1N2zFWWYAM-kS2.png:large" alt="Mario">
+        </div>
+    </body>
+</body>
+</html>
